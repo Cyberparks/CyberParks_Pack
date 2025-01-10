@@ -1,0 +1,60 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [126, 126],
+	"textures": {
+		"1": "custom/epcot/epcotpanelsingle",
+		"2": "custom/epcot/epcotpanelsingle2",
+		"particle": "custom/epcot/epcotball"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [24, 24, 24]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2"}
+			}
+		},
+		{
+			"from": [0, 0, -0.125],
+			"to": [0.375, 0.375, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, 8, 7.875]},
+			"color": 1,
+			"faces": {
+				"north": {"uv": [0, 0, 0.04762, 0.04762], "texture": "#missing"},
+				"east": {"uv": [0, 0, 0.01587, 0.04762], "texture": "#missing"},
+				"south": {"uv": [0, 0, 0.04762, 0.04762], "texture": "#missing"},
+				"west": {"uv": [0, 0, 0.01587, 0.04762], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0.04762, 0.01587], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0.04762, 0.01587], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_righthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"translation": [0, 2.5, 0],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"gui": {
+			"rotation": [30, 50, 0],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}
